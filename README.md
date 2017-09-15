@@ -70,6 +70,3 @@ Run Script:
   From the terminal-  
   >> cd into the directory containing your SAMPLE FOLDERS and copy of this script  
   >> bash -x DS_PE_Unified.3.0.3.sh 2> DS_PE_Unified_Record.se   
-
-  
-Read-me file incompleted, pending completion date: September 12, 2017  
