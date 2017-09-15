@@ -37,8 +37,8 @@ Chromosome  Ref_Base  Ref_Position  #DCS_Reads  #A_Muts #T_Muts #C_Muts #G_Muts 
 The shell script has 3 parts that can be customized for each analysis run. 
 (1) Run variables
 (2) File paths
-(3) Samples to analyze
-Though a bit tedious, it also gives a thorough record of how each run was processed.  
+(3) Samples to analyze  
+Each script then becomes a record of how the data was processed.  
   
   (1) Set Run Variables:  
   minMem=3            # Minimum number of reads to reach consensus  
