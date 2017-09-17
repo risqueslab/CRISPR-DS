@@ -51,7 +51,6 @@ ALIGN_REF=/Users/RRisques/Desktop/Duplex_Sequencing/Reference/Human_Genome/human
 GATK_PATH=/Applications/Utilities/Seq_Analysis_Tools/GenomeAnalysisTK-3.6
 FGBIO_PATH=/Applications/Utilities/Seq_Analysis_Tools/fgbio/target/scala-2.12
 REGION_BED=/Users/RRisques/Desktop/Duplex_Sequencing/Reference/P53/p53region.cutsites.bed # Bed file with genomic region
-SNP_BED=/Users/RRisques/Desktop/Duplex_Sequencing/Reference/P53/p53SNPs # Bed file with SNP positions 
 REF_PATH=/Users/RRisques/Desktop/Duplex_Sequencing/Reference/P53
 
 
