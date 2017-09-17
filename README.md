@@ -1,7 +1,7 @@
 # CRISPR-DS
 Data processing pipeline for CRISPR-Duplex Sequencing data. This pipeline uses
 a bash shell script, DS_PE_Unified.3.03.sh, to process raw FastQ files from Illumina
-Sequencing platforms to calling variants from double strand consensus sequences. 
+Sequencing platforms to call variants from double strand consensus sequences. 
 Note: Current pipeline is customized for sequencing gene, TP53, however this can
 easily be customized to any genomic target of interest. 
 An overview of the process:
@@ -43,7 +43,7 @@ Each script then becomes a record of how the data was processed.
   (1) Set Run Variables:  
   minMem=3            # Minimum number of reads to reach consensus  
   maxMem=200          # Maximum number of reads to reach consesnsus  
-  cutOff=0.7          # % of nucleotides at a position in read that must be identical in order   
+  cutOff=0.7          # Fraction of nucleotides at a position in read that must be identical in order   
                       for consensus at that position  
   nCutOff=1           # Maximum fraction of Ns allowed in a consensus  
   tagLen=10           # Adapter sequence length  
