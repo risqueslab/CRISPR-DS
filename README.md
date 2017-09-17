@@ -24,13 +24,13 @@ This data processing pipeline relies on UnifiedConsensusMaker.py to create singl
 Raw, de-multiplexed, paired-end FastQ files from Illumina platform. (i.e. Sample.seq1.fastq, Sample.seq2.fastq)
 
 # Output:
-* Single consensus sequence (SSCS) FastQ 
-* Duplex consensus sequence (DCS) FastQ
+* Single strand consensus sequence (SSCS) FastQ 
+* Double strand consensus sequence (DCS) FastQ
 * SSCS aligned BAM file
 * DCS aligned BAM file 
 * Mutpos file:  
 **Example format:**    
-Chromosome  Ref_Base  Ref_Position  #DCS_Reads  #A_Muts #T_Muts #C_Muts #G_Muts #Ns
+Chromosome&nbsp;&nbsp;Ref_Base&nbsp;&nbsp;Ref_Position&nbsp;&nbsp;#DCS_Reads&nbsp;&nbsp;#Muts&nbsp;&nbsp;#T_Muts&nbsp;&nbsp;#C_Muts&nbsp;&nbsp;#G_Muts&nbsp;&nbsp;#A_muts&nbsp;&nbsp;#Insertions&nbsp;&nbsp;#Deletions&nbsp;&nbsp;#Ns
 * Several other intermediate and supplementary QC files
 
 # Usage:
@@ -66,7 +66,7 @@ Each script then becomes a record of how the data was processed.
   samplename.seq2.fastq.gz  
   NOTE: This script can use compressed Fastq files, no need to unzip files before running this script  
   
-Run Script:
+  Run Script:
   From the terminal-  
   >> cd into the directory containing your SAMPLE FOLDERS and copy of this script  
   >> bash -x DS_PE_Unified.3.0.3.sh 2> DS_PE_Unified_Record.se   
