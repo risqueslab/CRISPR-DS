@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 
 #By Mike Schmitt and Brendan Kohrn
-#Version 1.3
-#Modified by Dana Nachmanson on November 29, 2016:
-#This version includes insertions and deletions in mutations count
-#Version 1.32
-#Modified by Dana Nachmanson  
+#Modified by Dana Nachmanson on November 29, 2016:  
 #This version includes the lengths of the insertions and deletions
 #Version 1.33
 
