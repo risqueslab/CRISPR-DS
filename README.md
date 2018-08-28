@@ -42,10 +42,9 @@ Raw, de-multiplexed, paired-end FastQ files from Illumina platform. (i.e. sample
 * DCS aligned BAM file
 * Mutpos file:  
 
+**Example format:**
 
-> **Example format:**
-
-> |Chr  |Ref  |Pos     |#DCS_Reads|#Muts|#T_Muts|#C_Muts|#G_Muts|#A_muts|#Ins |#Del |#Ns  |
+|Chr  |Ref  |Pos     |#DCS_Reads|#Muts|#T_Muts|#C_Muts|#G_Muts|#A_muts|#Ins |#Del |#Ns  |
 |:---:|:---:|:---:   |:---:     |:---:|:---:  |:---:  |:---:  |:---:  |:---:|:---:|:---:|
 |chr1 |A    |17000105|30000     |1    |0      |1      |0      |0      |0    |0    |100  |
 
