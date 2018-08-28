@@ -28,9 +28,8 @@ Further documentation on the algorithm of UnifiedConsensusMaker.py can be found 
 |fgbio   |0.2.0|
 |python  |2.7.X|
 |samtools|>=1.3.1|
-|python	 |2.7.X|
 |pysam	 |>=0.9.0|
-|MatPlotLib |	>=1.5.1 (optional)|
+|matplotlib |	>=1.5.1 (optional)|
 
 
 # Input:
